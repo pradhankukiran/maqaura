@@ -14,7 +14,7 @@ export function HeroSection({ className }: HeroSectionProps) {
             <br />
             <span className="whitespace-nowrap">a MIDI tool from</span>
             <br />
-            <span className="whitespace-nowrap"><span className="bg-[#2F81F7] text-white px-2 py-1 inline-block">Mohammed</span> <span className="bg-[#2F81F7] text-white px-2 py-1 inline-block">Alguthmi</span></span>
+            <span className="whitespace-nowrap"><span className="bg-[#2F81F7] text-white px-2 py-1 inline-block">Mohammed</span><span className="bg-[#2F81F7] text-white px-2 py-1 inline-block">Alguthmi</span></span>
           </h1>
         </div>
 
