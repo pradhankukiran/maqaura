@@ -3,13 +3,7 @@ import type { Metadata } from "next"
 
 import "./globals.css"
 
-import { Onest, Geist_Mono as V0_Font_Geist_Mono } from "next/font/google"
-
-// Initialize fonts
-const _geistMono = V0_Font_Geist_Mono({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-})
+import { Onest } from "next/font/google"
 
 // Initialize Onest font with weights 500 and 700
 const onest = Onest({
@@ -19,9 +13,10 @@ const onest = Onest({
 })
 
 export const metadata: Metadata = {
-  title: "Paperfolio - Portfolio Landing Page",
-  description: "A playful portfolio landing page",
-  generator: "v0.app",
+  title: "MaqAura MIDI Tool",
+  icons: {
+    icon: "/favicon.svg",
+  },
 }
 
 export default function RootLayout({
